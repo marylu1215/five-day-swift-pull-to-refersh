@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D72C9423BDE4E13382179270 /* Pods_five_day_swift_mjRefresh.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39082C0243243E3A70E907ED /* Pods_five_day_swift_mjRefresh.framework */; };
 		FA3742BA225F25A3008423C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3742B9225F25A3008423C9 /* AppDelegate.swift */; };
 		FA3742BC225F25A3008423C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3742BB225F25A3008423C9 /* ViewController.swift */; };
 		FA3742BF225F25A3008423C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA3742BD225F25A3008423C9 /* Main.storyboard */; };
@@ -14,6 +15,7 @@
 		FA3742C4225F25A4008423C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA3742C2225F25A4008423C9 /* LaunchScreen.storyboard */; };
 		FA3742CF225F25A4008423C9 /* five_day_swift_mjRefreshTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3742CE225F25A4008423C9 /* five_day_swift_mjRefreshTests.swift */; };
 		FA3742DA225F25A4008423C9 /* five_day_swift_mjRefreshUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3742D9225F25A4008423C9 /* five_day_swift_mjRefreshUITests.swift */; };
+		FA84CB9F2262FF2D00910F26 /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA84CB9E2262FF2D00910F26 /* secondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		39082C0243243E3A70E907ED /* Pods_five_day_swift_mjRefresh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_five_day_swift_mjRefresh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA237BBB15072226A07ABE8 /* Pods-five-day-swift mjRefresh.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-five-day-swift mjRefresh.debug.xcconfig"; path = "Pods/Target Support Files/Pods-five-day-swift mjRefresh/Pods-five-day-swift mjRefresh.debug.xcconfig"; sourceTree = "<group>"; };
+		E4FF03354D8981D64A5207FC /* Pods-five-day-swift mjRefresh.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-five-day-swift mjRefresh.release.xcconfig"; path = "Pods/Target Support Files/Pods-five-day-swift mjRefresh/Pods-five-day-swift mjRefresh.release.xcconfig"; sourceTree = "<group>"; };
 		FA3742B6225F25A3008423C9 /* five-day-swift mjRefresh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "five-day-swift mjRefresh.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA3742B9225F25A3008423C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA3742BB225F25A3008423C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +52,7 @@
 		FA3742D5225F25A4008423C9 /* five-day-swift mjRefreshUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "five-day-swift mjRefreshUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA3742D9225F25A4008423C9 /* five_day_swift_mjRefreshUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = five_day_swift_mjRefreshUITests.swift; sourceTree = "<group>"; };
 		FA3742DB225F25A4008423C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA84CB9E2262FF2D00910F26 /* secondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D72C9423BDE4E13382179270 /* Pods_five_day_swift_mjRefresh.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +81,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		74D97996B205F66D7BB6C4FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39082C0243243E3A70E907ED /* Pods_five_day_swift_mjRefresh.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8FA10952F527D177A1C5767C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CEA237BBB15072226A07ABE8 /* Pods-five-day-swift mjRefresh.debug.xcconfig */,
+				E4FF03354D8981D64A5207FC /* Pods-five-day-swift mjRefresh.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		FA3742AD225F25A3008423C9 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +105,8 @@
 				FA3742CD225F25A4008423C9 /* five-day-swift mjRefreshTests */,
 				FA3742D8225F25A4008423C9 /* five-day-swift mjRefreshUITests */,
 				FA3742B7225F25A3008423C9 /* Products */,
+				8FA10952F527D177A1C5767C /* Pods */,
+				74D97996B205F66D7BB6C4FD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +129,7 @@
 				FA3742C0225F25A4008423C9 /* Assets.xcassets */,
 				FA3742C2225F25A4008423C9 /* LaunchScreen.storyboard */,
 				FA3742C5225F25A4008423C9 /* Info.plist */,
+				FA84CB9E2262FF2D00910F26 /* secondViewController.swift */,
 			);
 			path = "five-day-swift mjRefresh";
 			sourceTree = "<group>";
@@ -132,9 +159,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FA3742DE225F25A4008423C9 /* Build configuration list for PBXNativeTarget "five-day-swift mjRefresh" */;
 			buildPhases = (
+				DC0D3245C3E914895A3CC5B9 /* [CP] Check Pods Manifest.lock */,
 				FA3742B2225F25A3008423C9 /* Sources */,
 				FA3742B3225F25A3008423C9 /* Frameworks */,
 				FA3742B4225F25A3008423C9 /* Resources */,
+				184C7D5D7D9630D60C1A1753 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -251,11 +280,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		184C7D5D7D9630D60C1A1753 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-five-day-swift mjRefresh/Pods-five-day-swift mjRefresh-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-five-day-swift mjRefresh/Pods-five-day-swift mjRefresh-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC0D3245C3E914895A3CC5B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-five-day-swift mjRefresh-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FA3742B2225F25A3008423C9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA84CB9F2262FF2D00910F26 /* secondViewController.swift in Sources */,
 				FA3742BC225F25A3008423C9 /* ViewController.swift in Sources */,
 				FA3742BA225F25A3008423C9 /* AppDelegate.swift in Sources */,
 			);
@@ -430,11 +507,13 @@
 		};
 		FA3742DF225F25A4008423C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEA237BBB15072226A07ABE8 /* Pods-five-day-swift mjRefresh.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9G4QXL6SA6;
 				INFOPLIST_FILE = "five-day-swift mjRefresh/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -448,11 +527,13 @@
 		};
 		FA3742E0225F25A4008423C9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4FF03354D8981D64A5207FC /* Pods-five-day-swift mjRefresh.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9G4QXL6SA6;
 				INFOPLIST_FILE = "five-day-swift mjRefresh/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
